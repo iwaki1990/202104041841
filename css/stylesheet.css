@@ -1,7 +1,10 @@
-
+ul{
+  text-align: right;
+}
 
 li{
     list-style: none;
+    
 }
 
 .header{
@@ -16,14 +19,18 @@ li{
 }
 
 .header-list {
-  float: right;
+  float: left;
   margin-bottom: 50px ;
   padding-right: 50px;
+  overflow: hidden;
+  
+  
 }
 
 .header-list li{
-  float:right;
+  float:left;
   padding: 33px 20px;
+  
   
 }
 
@@ -38,25 +45,33 @@ position: relative;
 .a{
 background:  blue;
 height :100px;
-width: 900px;
+width: 190%;
 margin-left:500px;
-
+position: absolute;
+left:0;
+top:400px;
+z-index: 1;
 }
 
 .parent h1{
+  font-size: 200%;
 margin-left: 50px;
-width: 500px;
+width: 30%;
 height: 300px;
+position: absolute;
+left:0;
+top:350px;
 
 }
   
   
 .firstview{
   
-  width: 500px;
+  width: 30%;
   height: 300px;
   position: absolute;
   right :0;
- 
+  top: 200px;
+ z-index: 2;
 }
 
