@@ -1,6 +1,4 @@
-ul{
-  text-align: right;
-}
+
 
 li{
     list-style: none;
@@ -10,12 +8,15 @@ li{
 .header{
     color: blue;
     line-height: 24px;
+    display:flex;
+  justify-content:space-between;
 }
 
 .header-logo{
     margin-top: 30px;
-    margin-left: 20px;
-    font-size: 20px;
+    margin-left: 60px;
+    font-size: 40px;
+    
 }
 
 .header-list {
@@ -23,6 +24,7 @@ li{
   margin-bottom: 50px ;
   padding-right: 50px;
   overflow: hidden;
+  
   
   
 }
@@ -45,21 +47,22 @@ position: relative;
 .a{
 background:  blue;
 height :100px;
-width: 190%;
-margin-left:500px;
+width: 50%;
+
 position: absolute;
 left:0;
 top:400px;
 z-index: 1;
+left: 200px;
+
 }
 
 .parent h1{
-  font-size: 200%;
-margin-left: 50px;
+  font-size: 300%;
+margin-left: 200px;
 width: 30%;
 height: 300px;
 position: absolute;
-left:0;
 top:350px;
 
 }
@@ -67,11 +70,11 @@ top:350px;
   
 .firstview{
   
-  width: 30%;
-  height: 300px;
+  width: 40%;
+  height: 50%;
   position: absolute;
-  right :0;
-  top: 200px;
+  right :200px;
+  top: 230px;
  z-index: 2;
 }
 
