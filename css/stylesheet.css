@@ -46,35 +46,34 @@ position: relative;
 
 .a{
 background:  blue;
-height :100px;
-width: 50%;
-
+height :200px;
+width: 80%;
 position: absolute;
-left:0;
+left: 0;
 top:400px;
 z-index: 1;
-left: 200px;
+margin-left: 200;
 
 }
 
 .parent h1{
-  font-size: 300%;
+  font-size: 400%;
 margin-left: 200px;
 width: 30%;
 height: 300px;
 position: absolute;
-top:350px;
+top:330px;
+left: 0;
 
 }
   
   
 .firstview{
-  
   width: 40%;
   height: 50%;
   position: absolute;
-  right :200px;
-  top: 230px;
+  right:0;
+  top: 280px;
  z-index: 2;
 }
 
